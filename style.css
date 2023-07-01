@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #EDF2F4;
+  --text-color: #000000;
+
+  --first-color: #651F71;
+  --second-color: #F78145;
+  --third-color: #68B2F8;
+  --fourth-color: #EE0B5B;
+
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--bg-color);
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background: var(--first-color);
+  height: 10rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+
+  height: 100%;
+  list-style: none;
+}
+
+nav ul li button {
+  color: var(--bg-color);
+  font-weight: 600;
+  font-size: 1.6rem;
+  cursor: pointer;
+
+  background: transparent;
+  border: none;
+}
+
+nav ul li button:hover {
+  color: var(--second-color);
+}
+
+svg {
+  position: absolute;
+  left: 63rem;
+  top: 27rem;
+}
+
+h1 {
+  font-family: 'Keania One', cursive;
+  letter-spacing: 0.8rem;
+  font-size: 6.5rem;
+  color: var(--first-color);
+
+  margin-top: 22rem;
+  text-align: center;
+
+  position: relative;
+}
+
+.page-one p {
+  width: 70rem;
+  
+  font-weight: 500;
+  line-height: 3rem;
+
+  text-align: center;
+
+  margin: 4.8rem auto 8rem;
+}
+
+.primary-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.primary-btns button {
+  background: var(--second-color);
+  width: 25rem;
+  height: 6rem;
+
+  border: none;
+  border-radius: 2rem;
+
+  cursor: pointer;
+  color: var(--bg-color);
+  font-weight: 800;
+
+  margin-bottom: 10rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.primary-btns button:hover {
+  background: #bb673d;
+}
+
+.text2 {
+  font-size: 1.4rem;
+}
+
+.text2 button {
+  background: transparent;
+  border: none;
+
+  font-size: 1.4rem;
+  color: var(--third-color);
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.page-two, .page-three {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+
+  margin: 27rem auto 27rem;
+}
+
+.page-two h3 {
+  width: 33rem;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 11rem auto 7rem;
+  letter-spacing: 0.14rem;
+}
+
+.page-two p {
+  width: 40rem;
+  text-align: center;
+
+  margin: auto;
+
+  font-weight: 400;
+  letter-spacing: 0.14rem;
+}
+
+
+.page-two button {
+  background: var(--fourth-color);
+  margin: 8rem auto;
+
+  color: var(--bg-color);
+  font-weight: 700;
+
+  width: 25rem;
+  height: 5.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: .8rem;
+
+  cursor: pointer;
+}
+
+.page-two button:hover{
+  background: #ac0d45;
+}
+
+.complain-box, .delation-box {
+  width: 51rem;
+  height: 58rem;
+
+  border-radius: .3rem;
+
+  color: var(--bg-color);
+
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.complain-box {
+  background: var(--first-color);
+
+}
+
+.delation-box {
+  background: var(--third-color);
+}
+
+.page-three h3 {
+  color: var(--first-color);
+  font-size: 2.4rem;
+  font-weight: 800;
+
+  letter-spacing: 0.14rem;
+  text-align: center;
+  
+  margin-bottom: 3rem;
+}
+
+.channel-flow, .channel-doubts {
+  width: 45rem;
+}
+
+.channel-flow .flow, .channel-doubts .doubts {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.channel-flow .flow div {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.channel-flow .flow div h4 {
+  color: var(--second-color);
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+}
+
+.channel-flow .flow div h4 span {
+  font-size: 2.2rem;
+  margin-right: 1rem;
+}
+
+.channel-flow .flow div p {
+  margin-left: 4.2rem;
+  width: 40rem;
+
+  color: var(--first-color);
+  font-weight: 500;
+}
+
+.channel-doubts .doubts {
+  gap: 3rem;
+}
+
+.channel-doubts .doubts p {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.channel-doubts .doubts .first-doubt {
+  border-top: solid 4px var(--fourth-color);
+  padding: .7rem 0;
+} 
+
+.channel-doubts .doubts .first-doubt h4 {
+ color: var(--fourth-color);
+ font-size: 1.8rem;
+ letter-spacing: .1rem;
+ margin-bottom: .7rem;
+}
+
+.channel-doubts .doubts .second-doubt {
+  border-top: solid 4px var(--second-color);
+  padding: .7rem 0;
+} 
+
+.channel-doubts .doubts .second-doubt h4 {
+ color: var(--second-color);
+ font-size: 1.8rem;
+ margin-bottom: .7rem;
+}
+
+.channel-doubts .doubts .third-doubt {
+  border-top: solid 4px var(--third-color);
+  padding: .7rem 0;
+} 
+
+.channel-doubts .doubts .third-doubt h4 {
+ color: var(--third-color);
+ font-size: 1.8rem;
+ margin-bottom: .7rem;
+}
+
+.channel-doubts .doubts .fourth-doubt {
+  border-top: solid 4px var(--first-color);
+  padding: .7rem 0;
+} 
+
+.channel-doubts .doubts .fourth-doubt h4 {
+ color: var(--first-color);
+ font-size: 1.8rem;
+ margin-bottom: .7rem;
+}
+
+.secondary-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 3.3rem;
+  align-items: center;
+
+  margin-bottom: 10rem;
+}
+
+.secondary-btns button {
+  width: 42rem;
+  height: 5.8rem;
+
+  border: none;
+  border-radius: 2rem;
+
+  color: var(--bg-color);
+  font-weight: 700;
+
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.secondary-btns .first-btn, .secondary-btns .second-btn {
+  background: var(--second-color);
+}
+
+.secondary-btns .first-btn:hover, .secondary-btns .second-btn:hover {
+  background: #bb673d;
+}
+
+.secondary-btns .third-btn {
+  background: var(--fourth-color);
+}
+
+.secondary-btns .third-btn:hover {
+  background: #ac0d45;
+}
+
+.secondary-btns .fourth-btn {
+  background: var(--third-color);
+}
+
+.secondary-btns .fourth-btn:hover {
+  background: #5795cf;;
+}
+
+footer {
+  background: var(--first-color);
+  height: 14rem;
+
+  margin-top: 30rem;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10rem;
+
+  color: var(--bg-color);
+  font-size: 1rem;
+
+  opacity: 60%;
+  
+}
+
+
+
+
