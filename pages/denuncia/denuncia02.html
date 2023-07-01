@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fazer uma denúncia</title>
+
+  <link rel="stylesheet" href="denuncia02.css">
+  <link href="https://fonts.googleapis.com/css2?family=Keania+One&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <a href="/index.html">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.4833 26.25L13.2816 20L19.4816 13.75" stroke="#D9D9D9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14.1433 20H26.72" stroke="#D9D9D9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M35 20C35 11.7183 28.2817 5 20 5C11.7183 5 5 11.7183 5 20C5 28.2817 11.7183 35 20 35C28.2817 35 35 28.2817 35 20Z" stroke="#D9D9D9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </header>
+
+  <main>
+   
+      <h1>FAZER UMA DENÚNCIA</h1>
+
+      <div class="identification">
+        <h2>IDENTIFICAÇÃO</h2>
+        <p>
+          Você pode fazer um relato anônimo ou identificado. <br>
+          A opção identificada é voltada para situações onde a pessoa se disponibiliza a ser contatada para esclarecimento de possíveis dúvidas sobre o relato fornecido. Nenhuma ação de retaliação será desencadeada contra o relator. <br>
+          Relatos identificados são muito importantes, pois podem fazer com que a apuração seja mais precisa e rápida. Não se preocupe, sua identidade estará protegida.
+        </p>
+
+        <form class="first-form" action="">
+          <label for="name">Nome:</label>
+          <input id="name" type="text">
+
+          <label for="email">E-mail:</label>
+          <input id="email" type="email">
+
+          <label for="phone">Telefone:</label>
+          <input id="phone" type="number">
+
+          <label for="relationship">Qual a sua relação com a empresa?</label>
+          <select id="relashionship" name="" id="">
+            <option value="#"></option>
+            <option value="employee">Funcionário</option>
+            <option value="supplier">Fornecedor</option>
+            <option value="client">Cliente</option>
+            <option value="other">Outro</option>
+          </select>
+        </form>
+      </div>
+
+      <span></span>
+
+      <div class="data-incident">
+        <h2>DADOS DO INCIDENTE</h2>
+
+        <form class="second-form" action="">
+          <label for="type">Tipo da denúncia:</label>
+          <select id="type" name="" id="">
+            <option value=""></option>
+            <option value="opt1">Assédio moral</option>
+            <option value="opt2">Assédio sexual</option>
+            <option value="opt3">Discriminação</option>
+            <option value="opt4">Fraude</option>
+            <option value="opt5">Propina</option>
+            <option value="opt6">Violência</option>
+            <option value="opt7">Roubo/Furto</option>
+          </select>
+
+          <label for="acussed-name">Nome do(a) denunciado(a):</label>
+          <input id="acussed-name" type="text">
+
+          <label for="accussed-relationship">Relação do(a) denunciado(a) com a empresa:</label>
+          <input id="accussed-relationship" type="text">
+
+          <label for="accussed-function">Cargo do(a) denunciado(a):</label>
+          <input id="accussed-function" type="text">
+
+          <label for="place">Local do ocorrido:</label>
+          <input id="place" type="text">
+
+          <label for="description">Descrição:</label>
+          <textarea name="" id="description" cols="30" rows="10"></textarea>
+
+          <button>Anexar arquivos</button>
+        </form>
+      </div>
+ 
+
+   <a href="/pages/denuncia/denuncia03.html">ENVIAR RELATO</a>
+  </main>
+
+  <footer>
+    <p>Feito com 🤍 por Milena</p>
+  </footer>
+  
+</body>
+</html>
