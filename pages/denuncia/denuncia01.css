@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #EDF2F4;
+  --text-color: #000000;
+
+  --first-color: #651F71;
+  --second-color: #F78145;
+  --third-color: #68B2F8;
+  --fourth-color: #EE0B5B;
+
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--bg-color);
+}
+
+header {
+  background: var(--first-color);
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  margin-left: 6rem;
+}
+
+h1 {
+  color: var(--first-color);
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: .18rem;
+
+  text-align: center;
+  margin: 8rem auto 8rem;
+}
+
+p {
+  width: 112rem;
+  margin: auto;
+
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+p + p {
+  margin-top: 5rem;
+}
+
+span {
+  font-weight: 800;
+}
+
+form {
+  width: 112rem;
+
+  margin: 3rem auto 8rem;
+
+  display: flex;
+  gap: 1rem;
+}
+
+form label {
+  font-size: 1.4rem;
+  color: var(--first-color);
+  font-weight: 600;
+}
+
+main a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  width: 28rem;
+  height: 5.8rem;
+
+  background: var(--second-color);
+
+  border: none;
+  border-radius: 2rem;
+
+  color: var(--bg-color);
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: .1rem;
+
+  margin-left: 120rem;
+}
+
+
+main a:hover {
+  background: #bb673d;
+}
+
+footer {
+  background: var(--first-color);
+  height: 10rem;
+
+  margin-top: 8rem;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 6rem;
+
+  color: var(--bg-color);
+  font-size: 1rem;
+
+  opacity: 60%;
+  
+}
